@@ -1,0 +1,9 @@
+﻿@inherits UmbracoViewPage<Web.Core.Model.ExampleViewModel>
+@using (Html.BeginUmbracoForm("PrivateInfoSubmit", "PrivateInfoSurface", null, new { id = "frmContact", name = "frmContact", novalidate = "novalidate" }))
+{
+    <div class="form-group has-feedback">
+        @Html.LabelFor(x => x.FirstName, new { @class = "control-label sr-only" })
+        @Html.TextBoxFor(x => x.FirstName, new { @class = "form-control", PlaceHolder = "First Name" })<i class="form-control-feedback fa fa-user" aria-hidden="true"></i>
+    </div>
+    <button type="Submit" id="btnContact">Send Message</button>
+}

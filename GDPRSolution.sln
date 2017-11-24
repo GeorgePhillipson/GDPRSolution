@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.Security", "Web.Security\Web.Security.csproj", "{AB56B042-B504-4BA6-AC68-EACF00555240}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.Core", "Web.Core\Web.Core.csproj", "{549837AC-2895-4C75-BD07-FA41548399A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.UI", "Web.UI\Web.UI.csproj", "{54D32138-6561-420C-AF12-5563E977FB9A}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB56B042-B504-4BA6-AC68-EACF00555240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB56B042-B504-4BA6-AC68-EACF00555240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB56B042-B504-4BA6-AC68-EACF00555240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB56B042-B504-4BA6-AC68-EACF00555240}.Release|Any CPU.Build.0 = Release|Any CPU
+		{549837AC-2895-4C75-BD07-FA41548399A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{549837AC-2895-4C75-BD07-FA41548399A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{549837AC-2895-4C75-BD07-FA41548399A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{549837AC-2895-4C75-BD07-FA41548399A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54D32138-6561-420C-AF12-5563E977FB9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54D32138-6561-420C-AF12-5563E977FB9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54D32138-6561-420C-AF12-5563E977FB9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54D32138-6561-420C-AF12-5563E977FB9A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
